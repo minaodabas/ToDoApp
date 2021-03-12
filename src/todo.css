@@ -1,0 +1,98 @@
+.container {
+    margin: 0 25% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    margin: 30px 0;
+    color: #483D8B;
+    font-weight: bold;
+    font-size: 26px;
+}
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.cardContainer {
+    color: white;
+    background-color: #483D8B;
+    min-width: 600px;
+    width: auto;
+    max-width: 500px;
+    border: 2px solid #483D8B;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.todoText {
+    margin-left: 6px;
+    font-weight: 600;
+}
+.buttonContainer {
+    align-self: flex-end;
+}
+.buttonDone,
+.buttonUndo,
+.buttonDelete {
+    border: 2px solid #483D8B;
+    padding: 4px 12px;
+    background-color: #333;
+    border-radius: 5px;
+    color: #eee;
+    margin: 10px 5px 6px 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.buttonDone:hover {
+    background-color: green;
+}
+.buttonUndo:hover {
+    background-color: orange;
+}
+.buttonDelete:hover {
+    background-color: red;
+}
+.createButton {
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #483D8B;
+    border: 2px solid #483D8B;
+    transition-duration: 0.4s;
+    font-weight: 500;
+    font-size: 14px;
+}
+.createButton:hover {
+    background-color: #483D8B;
+    color: #fff;
+    cursor: pointer;
+}
+.taskInput {
+    color: #483D8B;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 2px solid #483D8B;
+}
+.deleteAllButton {
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: #7d3d8b;
+    border: 2px solid #7d3d8b;
+    transition-duration: 0.4s;
+    font-weight: 500;
+    font-size: 14px;
+}
+.deleteAllButton:hover {
+    background-color: #7d3d8b;
+    color: #fff;
+    cursor: pointer;
+}
